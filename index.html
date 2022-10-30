@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <title>Mateus.code - Porfolio</title>
+    <title>Mateus.code - Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -22,109 +22,132 @@
 </head>
 <body>
  
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho_id">
         <p class="logo"><strong>Mateus.code</strong></p>
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#sect1">Section 1</a>
-            <a class="cabecalho-menu-item" href="#sect2">Section 2</a>
-            <a class="cabecalho-menu-item" href="#sect3">Section 3</a>
-            <a class="cabecalho-menu-item" href="#sect4">Section 4</a>
+        <nav class="cabecalho-menu" id="cabecalho_menu_id">
+            <a class="cabecalho-menu-item" href="#sect-apresentacao">Apresentação</a>
+            <a class="cabecalho-menu-item" href="#sect-sobre-mim">Sobre Mim</a>
+            <a class="cabecalho-menu-item" href="#sect-conhecimentos">Conchecimentos</a>
+            <a class="cabecalho-menu-item" href="#sect-contato">Contato</a>
         </nav>
+
+        <section class="botao-trocar-cor">
+            <label for="mudar-cor">Tema</label><br>
+            <button onclick="mudar_claro()"id="cor-clara">Claro</button>
+            <button onclick="mudar_escuro()"id="cor-escura">Escuro</button>
+            
+            
+        </section>
     </header>
 
+  
 
-    <main class="conteudo-inicio">
-       <section class="conteudo-principal">
+
+    <main class="conteudo-inicio" id="sect-apresentacao">
+       <section class="conteudo-principal" id="conteudo_id">
         <div class="conteudo-escrito">
-            <h1 class="conteudo-escrito-titulo">Olá,<br> seja Bem-Vindo<br> ao meu portfolio</h1>
+            <h1 class="conteudo-escrito-titulo">Olá,<br> seja Bem-Vindo<br> ao meu portfólio</h1>
             <h2 class="conteudo-principal-texto">Meu nome é Mateus e este é um guia para você me conhecer melhor</h2>
            
         </div>  
         
         <i class="conteudo-principal-pc fas fa-desktop"></i>        <!-- <i class="fas fa-rocket"></i> -->
        </section>
-       <section class="container-imagem">
+       <section class="container-imagem" id="id_container_imagem">
        <img class="conteudo-principal-imagem"src="img/developer.png" alt="">
     </section>
 
-<section class="conteudo-segundo">
+<section class="conteudo-segundo" id="id_container_segundo">
 
-    <section class="conteudo-secundario">
+    <section class="conteudo-secundario" id="sect-sobre-mim">
             
         <h2 class="titulo-apresentacao">Quem sou eu?</h2>
-        <div class="subtitulo-apresentacao">Venha conheçer mais sobre mim</div>
+        <div class="subtitulo-apresentacao">Venha conhecer  mais sobre mim</div>
         <p class="texto-apresentacao">Meu nome é Mateus Henrique e sou estudante técnico em informática, faço ensino médio + curso técnico em informática, com previsão de conclusão em 2023. Tenho interesse em diversas áreas da tecnologia, gosto de estudar diferentes áreas relacionadas a tecnologia e estou disposto a aprender o que for preciso.
         </p>
     </section>
 </section>
 
 
-    <section class="container-habilidades">
+    <section class="container-habilidades" id="sect-conhecimentos">
         <div class="habilidades-escrito">
           <h2 class="titulo-habilidades">Veja os meus conhecimentos</h2>
           <p class="texto-habilidades">Este é apenas um breve resumo do que eu sei fazer</p>
         </div>
 
-        <section class="container-linguagens">
+        <section id="container_linguagens_id" class="container-linguagens">
 
-            <div class="item1"><img class="imagem-linguagem"src="img/html-icon.png" alt=""> 
+            <div id="id_item1"class="item1"><img class="imagem-linguagem"src="img/html-icon.png" alt=""> 
+                <div class="container-p-linguagem">
                 <p class="nome-linguagem">
                     HTML
                 </p>
-          
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+                <div class="container-texto-linguagem">
+                <p class="texto-linguagens">Tenho um bom conhecimento em HTML, indo desde "FLEXBOX" "GRID" até "INPUT", já apliquei meus conhecimentos criando sites e formulários  e recriando layouts.</p>
             </div>
             </div>
+            
 
 
-            <div class="item1"><img class="imagem-linguagem"src="img/css-icon.png" alt=""> 
-                <p class="nome-linguagem">
-                    CSS
-                </p>
+            <div id="id_item2"class="item1"><img class="imagem-linguagem"src="img/css-icon.png" alt=""> 
+                <div class="container-p-linguagem">
+                    <p class="nome-linguagem">
+                        CSS
+                    </p>
+                </div>
             <div class="container-texto-linguagens">
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+                <p class="texto-linguagens">Assim como no HTML, tenho bom conhecimento de CSS, os sites que criei e recriei foram utilizados meus conhecimentos.</p>
             </div>
             </div>
-
-            <div class="item1"><img class="imagem-linguagem"src="img/js-icon.png" alt=""> 
-                <p class="nome-linguagem">
-                    JS
-                </p>
+            
+            <div id="id_item3" class="item1"><img class="imagem-linguagem"src="img/js-icon.png" alt=""> 
+                <div class="container-p-linguagem">
+                    <p class="nome-linguagem">
+                        JS
+                    </p>
+                </div>
             <div class="container-texto-linguagens">
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+                <p class="texto-linguagens">Tenho uma noção boa em JavaScript, o suficiente para trabalhar com objetos, ainda estou aprendendo e me aprofundando nesta linguagem.</p>
             </div>
             </div>
 
             
 
-            <div class="item1"><img class="imagem-linguagem"src="img/cSharp-icon.png" alt=""> 
-                <p class="nome-linguagem">
-                    C SHARP
-                </p>
+            <div id="id_item4" class="item1"><img class="imagem-linguagem"src="img/cSharp-icon.png" alt=""> 
+                <div class="container-p-linguagem">
+                    <p class="nome-linguagem">
+                        C SHARP
+                    </p>
+                </div>
             <div class="container-texto-linguagens">
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+                <p class="texto-linguagens">Primeira linguagem de programação que aprendi, tenho conhecimentos aritméticos, matrizes, vetores, classes entre outros.</p>
             </div>
             </div>
 
 
 
-            <div class="item1"><img class="imagem-linguagem"src="img/MySql-Icon.png" alt=""> 
-                <p class="nome-linguagem">
-                    MySQL
-                </p>
+            <div id="id_item5" class="item1"><img class="imagem-linguagem"src="img/MySql-Icon.png" alt=""> 
+                <div class="container-p-linguagem">
+                    <p class="nome-linguagem">
+                        MySQL
+                    </p>
+                </div>
             <div class="container-texto-linguagens">
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+                <p class="texto-linguagens">Tenho conhecimento  em MySQL, phpAdmin... Consigo criar banco de dados, inserir dados, buscar informações específicas  dentro de um banco entre outros.</p>
             </div>
             </div>
 
 
 
-            <div class="item1"><img class="imagem-linguagem"src="img/git-icon.png" alt=""> 
-                <p class="nome-linguagem">
-                    GIT
-                </p>
+            <div id="id_item6" class="item1"><img class="imagem-linguagem"src="img/git-icon.png" alt=""> 
+                <div class="container-p-linguagem">
+                    <p class="nome-linguagem">
+                        GIT
+                    </p>
+                </div>
             <div class="container-texto-linguagens">
-                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+                <p class="texto-linguagens">Consigo enviar arquivos, fazer mudanças, clonagem... Já trabalho com o git a um bom tempo, todos os meus projetos são subidos pelo git como uma forma de treinamento</p>
             </div>
             </div>
 
@@ -135,19 +158,68 @@
 
 
     </main>
+    
+    
+        <footer class="rodape" id="sect-contato">
+            <section class="conteiner-rodape" id="id_container_rodape">
+                <div class="container-texto-rodape">
+                    <p id="titulo_id_rodape" class="texto-rodape">Entre em contato</p>
+                </div>
+                <div class="redes-sociais">
+                    <div class=""> <a target="_blank" href="https://www.linkedin.com/in/mateus-oliver-21a5a4198/"><i class="soc red fab fa-linkedin-in"></i></a>
+                       
+                    </div>
+                    <div class=""> <a target="_blank" href="https://github.com/Mateusolivero"><i class="soc fab fa-github"></i></a>
+                        
+                    </div>
+                    <div class=""><a target="_blank" href="email.html"><i class="soc fas fa-envelope"></i></a>
+                        
+                    </div>
+
+                </div>
+                    
 
 
-        <!-- <footer class="rodape">
-            <section class="conteiner-rodape">
+
                 
+                <div class="container-nome-rede">
+                    <a target="_blank" href="https://www.linkedin.com/in/mateus-oliver-21a5a4198/"><p class="nome-rede">Linkedin</p></a>
+                    <a target="_blank" href="https://github.com/Mateusolivero"><p class="nome-rede">GitHub</p></a>
+                    <a target="_blank" href="email.html"><p class="nome-rede">Email</p></a>
+                </div>
+                
+                <div class="container-meus-dados">
+                    <div class="dados">
+                        <h4>Nome e idade</h4>
+                        <p class="dados-info">Meu nome é Mateus Henrique e tenho 17 anos.</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Cidade</h4>
+                        <p class="dados-info">Sou de Igarapé Mg, mas estudo em Belo Horizonte</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Escolaridade</h4>
+                        <p class="dados-info">Ensino médio + tecnico em informatica no Colégio Cotemig</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Idiomas</h4>
+                        <p class="dados-info">Possuo Inglês intermediario, ainda estou cursando inglês</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Programação</h4>
+                        <p class="dados-info">C Sharp, MySQL, HTML, CSS, JavaScript, GIT e GitHub </p>
+                    </div>
+                    
+                </div>
+                    
             </section>
-        </footer> -->
+        </footer>
 
         
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="java.js"></script>
 </body>
 </body>
 </html>

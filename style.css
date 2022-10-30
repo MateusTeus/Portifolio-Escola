@@ -5,9 +5,9 @@
 
 body {
   
-     background-image: linear-gradient(to right,#FF9CBB, #F3CE5F);
-    
-    background-color: #ECD6C4;
+     
+   
+     background-color: #ECD6C4;
 }
 
 .cabecalho {
@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 2rem;
     background-image: linear-gradient(to right,#ECD6C4, #F5C59E );
     
     flex-wrap: wrap;
@@ -32,8 +32,8 @@ body {
 }
 
 @keyframes mudanca-cor {
-    from {color:#5c0083}
-    to {color: #500cbd}
+    from {color:#d982ff}
+    to {color: #8c48f8}
 }
 
 .cabecalho-menu {
@@ -52,7 +52,6 @@ body {
     
 }
 
-
 .conteudo-inicio {
  border-top: 0.4rem solid #f57c7ce0;
  
@@ -64,6 +63,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-top: 10rem;
+    background-image: linear-gradient(to right,#FF9CBB, #F3CE5F);
 }
 
 
@@ -94,22 +94,22 @@ body {
 .conteudo-escrito-titulo{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 64px;
+    font-size: 5rem;
     
    
     
 }
 
-
 .fa-desktop{
-    font-size: 13rem;
+
+    font-size: 17rem;
     color: black;
 }
 
 .conteudo-principal-texto{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
@@ -117,11 +117,12 @@ body {
 .container-imagem{
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to right,#FF9CBB, #F3CE5F);
 }
 
 
 .conteudo-principal-imagem{
-   padding-top: 5rem;
+   padding-top: 2rem;
    
 
 }
@@ -135,8 +136,8 @@ body {
 .conteudo-segundo {
     height: 100%;
     border-top: 0.3rem solid #f57c7ce0;
-     background-image: linear-gradient(to bottom ,#FF9CBB, #F3CE5F );
-     background-color: #D8859F;
+    background-image: linear-gradient(to bottom ,#FF9CBB, #F3CE5F );
+    background-color: #D8859F;
  
     
    
@@ -188,8 +189,8 @@ body {
 
 .container-habilidades{
  max-width: 100%;
- height:220vh;
-
+ height:100%;
+ background-image: linear-gradient(to bottom ,#FF9CBB, #F3CE5F );
  border-top: solid #f57c7ce0 0.3rem;
 
 }
@@ -220,6 +221,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: justify;
+   
     
 }
 
@@ -227,26 +229,31 @@ body {
 
 .container-linguagens {
 width: 100%;
+
 /* background-color: ; */
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 gap: 2rem;
 justify-content: center;
+align-items: stretch;
 
 
 }
 
 .item1{
     width: 30%;
-    height: 100%;
-    background-color: orange;
-    background-image: linear-gradient(to bottom,#FBC2EB, #78A3EB);
+    height: 45rem;
+   
+    background-image: linear-gradient(to bottom,#FC79A2, #F7C83E);
     border: solid black 2px;
     text-align: center;
     align-items: baseline;
     border-radius: 4rem;
     padding-bottom: 3rem;
+    margin-bottom: 10rem;
+    
+    
     
    
 }
@@ -260,12 +267,21 @@ justify-content: center;
 
 
 .nome-linguagem{
+    /* font-size: 4rem;
     font-size: 2rem;
     position: relative;
-    top : -10rem;
-    color: black
+    bottom: 16rem;*/
+    color: black;
+    position: relative;
+    text-align: center;
+    bottom: 12rem;
+    font-size: 2.4rem;
+    height: 100%;
+    width: 100%;
 }
-
+.container-p-linguagem{
+    display: flex;
+}
 
 
 
@@ -275,7 +291,7 @@ justify-content: center;
 
 .texto-linguagens {
     position: relative;
-    text-align: justify;
+    /* text-align: justify; */
     padding-left: 2rem;
     padding-right:2rem ;
     padding-top: 6rem;
@@ -283,18 +299,9 @@ justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     height: 100%;
-    width: 100%;
-  
-}
-
-
-
-
-
-.rodape{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
+    width: 100%;	
+    
+    
 }
 
 
@@ -305,334 +312,189 @@ justify-content: center;
 
 
 
-
-
-
-
-
-
-
-@media (max-width: 700px)
-{
-
-
-
-
+.redes-sociais{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    font-size: 5rem;
+    padding-top: 5rem;
+    color: #08317F;
   
 
-        .cabecalho {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            padding: 24px;
-            background-color: #4FEA7B;
-            flex-wrap: wrap;
-            width: 100%;
-            
-            
-        }
-        
-        .logo {
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Poppins', sans-serif;
-            font-size: 1.3rem;
-            animation-name: mudanca-cor;
-            animation-duration: 4s;  
-            animation-iteration-count: infinite;
-        }
-        
-        @keyframes mudanca-cor {
-            from {color:#5c0083}
-            to {color: #500cbd}
-        }
-        
-        .cabecalho-menu {
-            display: flex;
-            gap: 32px;
-            
-            
-        }
-        
-        .cabecalho-menu-item {
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Poppins', sans-serif;
-            color: #500cbd;
-            font-weight: 400;
-            font-size: 1.2em; 
-            
-        }
+}
 
-        .cabecalho-menu-item {
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Poppins', sans-serif;
-            color: #500cbd;
-            font-weight: 400;
-            font-size: 1.0em;
-            
-        }
-      
-        
-    
+.redes-sociais a {
+    color: #08317F;
+}
 
-        
-.conteudo-inicio {
-    border-top: 0.4rem solid #f57c7ce0;
-    
-   }
-   
-   .conteudo-principal {
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: space-around;
-       padding-top: 10rem;
-   }
-   
-   
-   
-   .conteudo-principal-pc{
-       animation-name: floating;
-       animation-duration: 3s;
-       animation-iteration-count: infinite;
-       animation-timing-function: ease-in-out;
-       margin-left: 30px;
-       margin-top: 5px;
-       width: 25%;
-   }
-   
-   @keyframes floating {
-       0% { transform: translate(0,  0px); }
-       50%  { transform: translate(0, 15px); }
-       100%   { transform: translate(0, -0px); }   
-   }
-   
-   .conteudo-escrito{
-       display: flex;
-       flex-direction: column;
-       gap: 2rem;
-   }
-   
-   
-   .conteudo-escrito-titulo{
-       font-family: 'Open Sans', sans-serif;
-       font-family: 'Poppins', sans-serif;
-       font-size: 3rem;
-       padding-left: 4rem;
-       padding-top: 3rem;
-       
-      
-       
-   }
-   
-   
-   .fa-desktop{
-       font-size: 7rem;
-       color: black;
-       position: absolute;
-       bottom: 44%;
-       left: 40%;
-
-
-
-   }
-   
-   .conteudo-principal-texto{
-       font-family: 'Open Sans', sans-serif;
-       font-family: 'Poppins', sans-serif;
-       font-size: 1.2rem;
-       padding-left: 4rem;
-   }
-   
-   
-
-
-
-
-
-
-   .container-imagem{
+.container-texto-rodape {
     display: flex;
     justify-content: center;
-}
+  
 
-
-.conteudo-principal-imagem{
-   padding-top: 5rem;
-   
-
-}
-.conteudo-principal-imagem{
-    background-size: cover;
-    width: 60%;
 
 }
 
+.conteiner-rodape{
 
-.conteudo-segundo {
-    height: 100%;
-    border-top: 0.3rem solid #f57c7ce0;
-     background-image: linear-gradient(to bottom ,#FF9CBB, #F3CE5F );
-     background-color: #D8859F;
+    border-top: solid 0.4rem #f57c7ce0 ;
+    background-image: linear-gradient(to right, #E1B3C2, #E9D391);
+    
+    
  
-    
    
 }
 
-.conteudo-secundario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+.texto-rodape {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 400;
     padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 3rem;
-    gap: 1.6rem; 
-    padding-bottom: 2rem;
-
-}
-
-
-.titulo-apresentacao{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    color: #500cbd;
-    font-weight: 400;
-  
-    
-    
     
 }
 
-.subtitulo-apresentacao {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.0rem;
-
+.container-nome-rede {
+    display: flex;
+    gap: 3rem;
+    /* position: relative; */
+    left: 1.5rem;
+    justify-content: center;
+   
+    
+    
+}
+.soc:hover {
+    color: #3E7FF7;
 }
 
-.texto-apresentacao {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    text-align: justify;
-    padding-bottom: 3rem;
+.nome-rede {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1.0rem;
+    /* position: relative; */
+    right: 2rem;
+    color: #08317F;    
+    font-size: 2.5rem;
+    
 }
 
-
-
-
-.container-habilidades{
- max-width: 100%;
- height:220vh;
-
- border-top: solid #f57c7ce0 0.3rem;
-
+.nome-rede:hover{
+    color: #3E7FF7;
 }
 
-.habilidades-escrito{
+.container-meus-dados {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    text-align: center;
     align-items: center;
-    padding: 4rem;
+  
+   
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 3rem;
+    margin: 3rem 4rem 0rem 4rem ;
+    
+
+    /* padding-left: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 3rem;
+    margin-top: 4rem; */
+    
+
+   
+   
+    
+
+    
+
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    left: 4rem;
+    flex-direction: column;
+    padding: 3rem;
+  
+   
+    
+    
+    
+    
     
 }
 
-.titulo-habilidades{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+
+h4 {
+    width: 10rem;
+    border: solid black;
+    border-width: 0.2rem 0.2rem 0rem 0.2rem;
+    text-align: center;
+    width: 25rem;
+    font-size: 1.7rem;
+    
+    
+}
+
+.dados-info {
+    text-align: justify;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 50rem;
+    border: solid black;
+    border-width: 0.2rem 0.2rem 0.2rem 0.2rem;
+    font-size: 1.7rem;
+}
+
+
+.botao-trocar-cor label{
+   padding-right: 2rem;
+    align-self: center;
+    font-size: 1.2rem;
+    color:#8c48f8;
+    font-weight: 400;
+
+}
+.botao-trocar-cor {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.botao-trocar-cor button {
+background-color: #d982ff;
+border-radius: 2rem;
+width: 6rem;
+height: 3rem;
+margin-left: 1rem;
+cursor: pointer;
+font-weight: 400;
+}
+
+
+
+#container_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+#container_email .email {
+    font-size: 7rem;
+    color: #500cbd;
+    margin: 0;
+}
+
+#container_email .p_email{
     font-size: 3rem;
     color: #500cbd;
-    font-weight: 400;
-    text-align: center;
-  
-    
-    
-    
-}
-
-.texto-habilidades {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    
-}
-
-
-
-.container-linguagens {
-width: 100%;
-/* background-color: ; */
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-gap: 2rem;
-align-items: center;
-justify-content: center;
-
-
-}
-
-.item1{
-    width: 70%;
-    height: 100%;
-    background-color: orange;
-    background-image: linear-gradient(to bottom,#FBC2EB, #78A3EB);
-    border: solid black 2px;
-    text-align: center;
-    align-items: baseline;
-    border-radius: 4rem;
-    padding-bottom: 3rem;
-    
-   
-}
-
-.imagem-linguagem {
-    width: 50%;
-    position: relative;
-    top: 5.5rem;  
-}
-
-
-
-.nome-linguagem{
-    font-size: 2rem;
-    position: relative;
-    top : -7rem;
-    text-align: center;
-    color: black
-}
-
-
-
-
-.container-texto-linguagens{
-    display: flex;
-}
-
-.texto-linguagens {
-    position: relative;
-    text-align: justify;
-    padding-left: 2rem;
-    padding-right:2rem ;
-    padding-top: 6rem;
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-    width: 100%;
-  
-}
-
-
-
-
-
-
-
-
-    
 }

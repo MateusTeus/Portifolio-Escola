@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,400;0,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Mateus.code - Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    
+
+</head>
+<body>
+ 
+    <header class="cabecalho">
+        <p class="logo"><strong>Mateus.code</strong></p>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#sect1">Section 1</a>
+            <a class="cabecalho-menu-item" href="#sect2">Section 2</a>
+            <a class="cabecalho-menu-item" href="#sect3">Section 3</a>
+            <a class="cabecalho-menu-item" href="#sect4">Section 4</a>
+        </nav>
+    </header>
+
+
+    <main class="conteudo-inicio" id="sect1">
+       <section class="conteudo-principal">
+        <div class="conteudo-escrito">
+            <h1 class="conteudo-escrito-titulo">Olá,<br> seja Bem-Vindo<br> ao meu portfolio</h1>
+            <h2 class="conteudo-principal-texto">Meu nome é Mateus e este é um guia para você me conhecer melhor</h2>
+           
+        </div>  
+        
+        <i class="conteudo-principal-pc fas fa-desktop"></i>        <!-- <i class="fas fa-rocket"></i> -->
+       </section>
+       <section class="container-imagem">
+       <img class="conteudo-principal-imagem"src="img/developer.png" alt="">
+    </section>
+
+<section class="conteudo-segundo">
+
+    <section class="conteudo-secundario" id="sect2">
+            
+        <h2 class="titulo-apresentacao">Quem sou eu?</h2>
+        <div class="subtitulo-apresentacao">Venha conheçer mais sobre mim</div>
+        <p class="texto-apresentacao">Meu nome é Mateus Henrique e sou estudante técnico em informática, faço ensino médio + curso técnico em informática, com previsão de conclusão em 2023. Tenho interesse em diversas áreas da tecnologia, gosto de estudar diferentes áreas relacionadas a tecnologia e estou disposto a aprender o que for preciso.
+        </p>
+    </section>
+</section>
+
+
+    <section class="container-habilidades" id="sect3">
+        <div class="habilidades-escrito">
+          <h2 class="titulo-habilidades">Veja os meus conhecimentos</h2>
+          <p class="texto-habilidades">Este é apenas um breve resumo do que eu sei fazer</p>
+        </div>
+
+        <section class="container-linguagens">
+
+            <div class="item1"><img class="imagem-linguagem"src="img/html-icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    HTML
+                </p>
+          
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+
+            <div class="item1"><img class="imagem-linguagem"src="img/css-icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    CSS
+                </p>
+            <div class="container-texto-linguagens">
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+            <div class="item1"><img class="imagem-linguagem"src="img/js-icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    JS
+                </p>
+            <div class="container-texto-linguagens">
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+            
+
+            <div class="item1"><img class="imagem-linguagem"src="img/cSharp-icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    C SHARP
+                </p>
+            <div class="container-texto-linguagens">
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+
+
+            <div class="item1"><img class="imagem-linguagem"src="img/MySql-Icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    MySQL
+                </p>
+            <div class="container-texto-linguagens">
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+
+
+            <div class="item1"><img class="imagem-linguagem"src="img/git-icon.png" alt=""> 
+                <p class="nome-linguagem">
+                    GIT
+                </p>
+            <div class="container-texto-linguagens">
+                <p class="texto-linguagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem delectus quam labore eligendi numquam, error, eius maxime sint enim iure dicta atque alias a beatae? Beatae ex ad omnis.</p>
+            </div>
+            </div>
+
+         
+            </div>
+        </section>
+    </section>
+
+
+    </main>
+
+
+        <footer class="rodape" id="sect4">
+            <section class="conteiner-rodape">
+                <div class="container-texto-rodape">
+                    <p class="texto-rodape">Entre em contato</p>
+                </div>
+                <div class="redes-sociais">
+                    <div class=""><i class="soc red fab fa-linkedin-in"></i>
+                       
+                    </div>
+                    <div class=""><i class="soc fab fa-github"></i>
+                        
+                    </div>
+                    <div class=""><i class="soc fas fa-envelope"></i>
+                        
+                    </div>
+
+                </div>
+                    
+
+
+
+                
+                <div class="container-nome-rede">
+                    <a href=""><p class="nome-rede">Linkedin</p></a>
+                    <a href=""><p class="nome-rede">GitHub</p></a>
+                    <a href=""><p class="nome-rede">Email</p></a>
+                </div>
+                
+                <div class="container-meus-dados">
+                    <div class="dados">
+                        <h4>Nome</h4>
+                        <p class="dados-info">Mateus Henrique</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Cidade</h4>
+                        <p class="dados-info">Igarapé Mg</p>
+                    </div>
+                    <div class="dados">
+                        <h4>Escolaridade</h4>
+                        <p class="dados-info"></p>
+                    </div>
+                    <div class="dados">
+                        <h4>Idiomas</h4>
+                        <p class="dados-info"></p>
+                    </div>
+                    <div class="dados">
+                        <h4>Linguagem programação</h4>
+                        <p class="dados-info"></p>
+                    </div>
+                    
+                </div>
+                    
+            </section>
+        </footer>
+
+        
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</body>
+</html>
